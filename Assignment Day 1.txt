@@ -1,0 +1,8 @@
+Exercise 1: Consider user has N eggs. Then display the no of eggs in gross (144 eggs make one gross) and 
+no of eggs in dozen (12 eggs make one dozen) and the no of eggs that is left out remaining. 
+The total no of eggs can be got as input through command line. The program should display
+how many gross, how many dozen, and how many left over eggs the user has.
+
+Exercise 2:
+1.	Create a new project in which create a package named org.animals. In that create various classes like Lion, Tiger, Deer, Monkey, Elephant and Giraffe. In each class create data members like color, weight,age etc. Create methods like isVegetarian, canClimb, sound etc
+2.	Create another project and in that create a package called zoo and create a class called DelhiZoo and create objects for the animals that are existing in zoo and print the characteristic of each animal.
