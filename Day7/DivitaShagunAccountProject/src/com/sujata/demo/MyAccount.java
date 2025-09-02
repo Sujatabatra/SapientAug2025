@@ -1,14 +1,21 @@
 package com.sujata.demo;
 
+/*
+ * To Apply Class level locking
+ * 1. make static method as synchronized
+ * 2. while making synchronized block , use this
+ * synchronized(ClassName.class){
+ * -
+ * -
+ * -
+ * }
+ */
 public class MyAccount implements Runnable {
 
 	private static int balance=1000;
 	
 
-	public void withdraw() {
-//		Object Level Lock
-//		synchronized (this) {
-		
+	public void withdraw() {		
 //		Class Level Lock
 		synchronized (MyAccount.class) {	
 		if(balance>800) {
